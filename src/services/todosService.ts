@@ -2,7 +2,7 @@ import axios from 'axios';
 import { User, UserCreateData } from '../types';
 
 export const apiClient = axios.create({
-    baseURL: 'http://localhost:8080',
+    baseURL: 'http://18.220.97.151:8080',
     headers: {
         'Content-Type': 'application/json',
     },

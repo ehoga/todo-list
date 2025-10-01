@@ -2,7 +2,7 @@ import axios from 'axios';
 import { User, UserCreateData } from '../types';
 
 export const apiClient = axios.create({
-    baseURL: 'http://18.220.73.223:8080',
+    baseURL: 'http://3.144.178.131:8080',
     headers: {
         'Content-Type': 'application/json',
     },
